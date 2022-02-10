@@ -14,4 +14,7 @@ router.get('/', (request: Request, response: Response) => {
 router.get('/message', listMessageController.hanle)
 router.post('/message', createMessageController.handle)
 
+router.get('/adicionais', listMessageController.hanle)
+router.post('/adicionais', createMessageController.handle)
+
 export { router }
